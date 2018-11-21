@@ -19,14 +19,14 @@
 -->
 <resources>
     <!-- Whether or not auto-correction should be enabled by default -->
-    <bool name="enable_autocorrect">false</bool>
+    <bool name="enable_autocorrect">true</bool>
     <bool name="default_auto_cap">true</bool>
-    <bool name="default_quick_fixes">true</bool>
-    <bool name="default_suggestions">true</bool>
+    <bool name="default_quick_fixes">false</bool>
+    <bool name="default_suggestions">false</bool>
     <bool name="default_suggestions_in_landscape">false</bool>
     <!-- Whether this input method should be used as the default for a locale. Override it
          for latin languages. -->
-    <bool name="im_is_default">false</bool>
+    <bool name="im_is_default">true</bool>
     <!-- Whether or not voice input is enabled by default. -->
     <bool name="voice_input_default">true</bool>
     <bool name="config_swipeDisambiguation">true</bool>
@@ -36,8 +36,8 @@
     <bool name="config_long_press_comma_for_settings_enabled">true</bool>
     <bool name="default_connectbot_tab_hack">true</bool>
     <bool name="default_fullscreen_override">false</bool>
-    <bool name="default_force_keyboard_on">false</bool>
-    <bool name="default_keyboard_notification">false</bool>
+    <bool name="default_force_keyboard_on">true</bool>
+    <bool name="default_keyboard_notification">true</bool>
     <bool name="default_add_shift_to_popup">false</bool>
     <bool name="default_caps_lock">true</bool>
     <bool name="default_shift_lock_modifiers">true</bool>

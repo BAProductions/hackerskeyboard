@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        package="org.pocketworkstation.pckeyboard" android:versionName="v1.39.3" android:versionCode="1039003">
+        package="org.pocketworkstation.pckeyboard" android:versionName="v1.40.2" android:versionCode="1040002">
 
     <uses-permission android:name="android.permission.VIBRATE"/>
     <uses-permission android:name="android.permission.READ_USER_DICTIONARY" />
@@ -8,7 +8,7 @@
     <uses-feature android:name="android.hardware.faketouch" android:required="false" />
     <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
 
-    <uses-sdk android:targetSdkVersion="19" android:minSdkVersion="8"></uses-sdk>
+    <uses-sdk android:targetSdkVersion="26" android:minSdkVersion="14"></uses-sdk>
 
     <application android:label="@string/english_ime_name"
             android:allowBackup="true"
